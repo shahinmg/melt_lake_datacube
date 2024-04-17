@@ -33,3 +33,5 @@ Note: I created this yml using `conda env export > environment.yml`. Sometimes I
 
 ## Thoughts on improvements 
 I tried to make a GPU native version using cupy-xarray `cupy_xarray_test.ipynb`, which is not working as of now. We should also try to speed things up for when we scale up. Some thoughts might be to use the `cohorts` method in the group by. More on that is [here](https://flox.readthedocs.io/en/latest/user-stories/climatology.html). 
+
+We also need to verify some lakes with optical imagery to see what is actually hapening in the visible spectrum as well. 
